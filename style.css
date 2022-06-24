@@ -1,0 +1,27 @@
+/* CSS Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 300px;
+    min-height: 100px;
+    /* float: left; */
+    background-color: aquamarine;
+}
+
+section {
+    width: 800px;
+    min-height: 100px;
+    /* float: right; */
+    background-color:blueviolet;
+    clear: right;
+}
+
+footer {
+    min-height: 400px;
+    background-color: darkgreen;
+    clear: right;
+}

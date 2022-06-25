@@ -35,18 +35,70 @@ const images = [
         name: "wine-glass",
         path: './img/wine-glass.jpg'
     },
-
+    {
+        name: "bathroom",
+        path: './img/bathroom.jpg'
+    },
+    {
+        name: "bootss",
+        path: './img/boots.jpg'
+    },
+    {
+        name: "bubblegum",
+        path: './img/bubblegum.jpg'
+    },
+    {
+        name: "chair",
+        path: './img/chair.jpg'
+    },
+    {
+        name: "cthulhu",
+        path: './img/cthulhu.jpg'
+    },
+    {
+        name: "dog-duck",
+        path: './img/dog-duck.jpg'
+    },
+    {
+        name: "dragon",
+        path: './im/dragon.jpg'
+    },
+    {
+        name: "pen",
+        path: './im/pen.jpg'
+    },
+    {
+        name: "pet-sweep",
+        path: './img/pet-sweep.jpg'
+    },
+    {
+        name: "scissor",
+        path: './img/scissor.jpg'
+    },
+    {
+        name: "shark",
+        path: './img/shark.jpg'
+    },
+    {
+        name: "sweep",
+        path: './img/sweep.jpg'
+    },
+    {
+        name: "tauntaun",
+        path: './img/tauntaun.jpg'
+    },
 ]
+
 
 const picsArray = []
 
 for (let i = 0; i < images.length; i++) {
-   picsArray.push(new Pics(images[i].name, images[i].path, 0))   
+    picsArray.push(new Pics(images[i].name, images[i].path, 0))
 }
 
 
 for (let i = 0; i < 3; i++) {
-   
+
     console.log('Pic name: ', picsArray[i].name)
     let htmlData = `
         <div>
@@ -62,5 +114,5 @@ for (let i = 0; i < 3; i++) {
 // const goatImg = new Pixs( "babyRam", assets, "2.5 sec");
 // document.getElementById("img"). 
 
-let arr = [1,2,3,4,5]
+let arr = [1, 2, 3, 4, 5]
 console.log('arr: ', arr[4])
